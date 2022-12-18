@@ -115,7 +115,7 @@ function updateScore(){
 function updateTime(){
   time --;
   elvaqt.innerHTML=time;
-  if(time == 0){
+  if(time === 0){
     clearInterval(timeInterval);
     gameOver()
   }
@@ -166,7 +166,6 @@ elinput.addEventListener("input", e=>{
     addtoDom();
     yes.innerHTML="✅"
     e.target.value = "";
-    updateTime()
   }
   else{
     yes.innerHTML="❌"
