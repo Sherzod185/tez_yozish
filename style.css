@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #575a57;
+ 
+  display: flex;
+  height: 70vh;
+ margin: 20px;
+
+}
+.container{
+  width: 500px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(65, 87, 94, 0.78);
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px black;
+}
+.word{
+  color: rgba(255, 255, 255, 0.928);
+  font-size: 30px;
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px black;
+  height: 55px;
+  padding-top: 11px;
+  background-color: rgba(17, 16, 16, 0.621);
+  margin-bottom: 50px;
+  letter-spacing: 1.5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#input_text{
+  width: 300px;
+  height: 50px;
+  margin-left: 20px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.778);
+  color: white;
+  border: 1px solid wheat;
+  border-radius: 8px;
+}
+#input_text::placeholder{
+  color: rgba(245, 246, 247, 0.233);
+  font-size: 16px;
+}
+.yes{
+  background-color: rgba(161, 154, 154, 0.859);
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.604);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 3px;
+  font-size: 25px;
+margin-left: 8px;
+
+}
+.i{
+  width: 350px;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.time, .score{
+  color: azure;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 5px;
+}
+.tugadi{
+  width: 100%;
+  height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 35px;
+  background-color: black;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 50;
+  color: rgb(197, 205, 205);
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+
+}
+.tugadi h2{
+  font-size: 40px;
+  color: red;
+}
+.tugadi h1{
+  font-size: 20px;
+}
+.tugadi button{
+  padding: 20px;
+  border: 0.5px solid wheat;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 30px;
+  color:rgb(251, 247, 247);
+  background-color: rgba(46, 46, 113, 0.637);
+  font-weight: 700;
+}
