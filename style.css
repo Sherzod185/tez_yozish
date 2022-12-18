@@ -25,13 +25,13 @@ body{
 }
 .word{
   color: rgba(255, 255, 255, 0.928);
-  font-size: 30px;
+  font-size: 22px;
   width: 250px;
   text-align: center;
   border-radius: 5px;
   box-shadow: 10px 10px 15px black;
   height: 55px;
-  padding-top: 11px;
+  padding-top: 18px;
   background-color: rgba(17, 16, 16, 0.621);
   margin-bottom: 50px;
   letter-spacing: 1.5px;

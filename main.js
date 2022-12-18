@@ -109,7 +109,7 @@ let randomword;
 let score = 0;
 let time = 60;
 function rendom(){
-  return words[Math.floor(Math.random()*(words.length-1))]
+  return words[Math.floor(Math.random()*(words.length-1))].toUpperCase()
 }
 
 function addtoDom(){
@@ -169,7 +169,7 @@ else {
 yes.style.display = "inline"
 addtoDom();
 elinput.addEventListener("input", e=>{
-  let typedText = e.target.value;
+  let typedText = e.target.value.toUpperCase();
  if(typedText === randomword){
 
     updateScore(); 
