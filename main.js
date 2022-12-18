@@ -167,7 +167,10 @@ elinput.addEventListener("input", e=>{
     yes.innerHTML="✅"
     e.target.value = "";
   }
-  else{
+  else if((typedText.length === randomword.length)){
     yes.innerHTML="❌"
   }
+	else{
+		yes.innerHTML=""
+	}
 });
